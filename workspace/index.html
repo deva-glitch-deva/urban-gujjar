@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>URBAN GUJJAR — Panga ho gaya? Gujjar bula.</title>
+  <meta name="description" content="India's most overfunded fictional dispute-resolution service. Panga mat le. Booking kar." />
+  <meta property="og:title" content="URBAN GUJJAR — Panga ho gaya? Gujjar bula." />
+  <meta property="og:description" content="Settlement Specialists. Chaos Negotiators. ₹50-crore startup. 100% fictional, 100% bhaukaal." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <div class="preloader__logo">
+        <span class="preloader__logo-mark" aria-hidden="true">UG</span>
+        <span class="wordmark wordmark--center">
+          <span class="wordmark__top">Urban</span>
+          <span class="wordmark__main wordmark__main--lg">Gujjar</span>
+        </span>
+      </div>
+      <div class="preloader__bar"><span class="preloader__bar-fill"></span></div>
+      <div class="preloader__meta">
+        <span class="preloader__count" id="preloaderCount">0%</span>
+        <span class="preloader__tag">fictional. funded. fabulous.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ CUSTOM CURSOR ============ -->
+  <div class="cursor cursor--dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="cursor cursor--ring" id="cursorRing" aria-hidden="true"></div>
+
+  <!-- ============ GRAIN OVERLAY ============ -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ NOISE + GRADIENT BACKGROUND ============ -->
+  <div class="bg-aurora" aria-hidden="true">
+    <span class="bg-aurora__blob bg-aurora__blob--1"></span>
+    <span class="bg-aurora__blob bg-aurora__blob--2"></span>
+    <span class="bg-aurora__blob bg-aurora__blob--3"></span>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav glass" id="nav">
+    <a href="#hero" class="nav__brand" data-magnetic>
+      <span class="logo-mark" aria-hidden="true">UG</span>
+      <span class="wordmark">
+        <span class="wordmark__top">Urban</span>
+        <span class="wordmark__main">Gujjar<sup class="wordmark__tm">™</sup></span>
+      </span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#characters" class="nav__link" data-reveal-nav>Warriors</a>
+      <a href="#proof" class="nav__link" data-reveal-nav>Proof</a>
+      <a href="#guarantee" class="nav__link" data-reveal-nav>Guarantee</a>
+      <a href="#reviews" class="nav__link" data-reveal-nav>Reviews</a>
+    </nav>
+    <a href="#book" class="btn btn--solid btn--sm nav__cta" data-magnetic data-cursor="book">
+      <span class="btn__label">Book a Gujjar</span>
+      <span class="btn__shine"></span>
+    </a>
+    <button class="nav__burger" id="navBurger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu glass" id="mobileMenu" aria-hidden="true">
+    <a href="#characters" class="mobile-menu__link">Warriors</a>
+    <a href="#proof" class="mobile-menu__link">Proof</a>
+    <a href="#guarantee" class="mobile-menu__link">Guarantee</a>
+    <a href="#reviews" class="mobile-menu__link">Reviews</a>
+    <a href="#book" class="btn btn--solid mobile-menu__cta">Book a Gujjar</a>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero__inner">
+      <p class="eyebrow reveal-up" data-delay="0">
+        <span class="eyebrow__dot"></span> India's most overfunded dispute-resolution startup
+      </p>
+
+      <h1 class="hero__title">
+        <span class="hero__line hero__line--1 reveal-up" data-delay="80">
+          <span class="text-ghost" data-parallax="-12">Panga</span>
+          <span class="text-stroke" data-parallax="6">ho&nbsp;gaya?</span>
+        </span>
+        <span class="hero__line hero__line--2 reveal-up" data-delay="200">
+          <span class="text-ghost text-ghost--accent" data-parallax="10">Gujjar</span>
+          <span class="text-solid" data-parallax="-8">bula.</span>
+        </span>
+      </h1>
+
+      <p class="hero__sub reveal-up" data-delay="320">
+        Panga mat le. Booking kar. Duniya ke pehle
+        <em>Settlement-as-a-Service</em> platform mein —
+        bina violence, bina weapons, sirf full&nbsp;drama aur baat.
+      </p>
+
+      <div class="hero__actions reveal-up" data-delay="440">
+        <a href="#book" class="btn btn--solid btn--lg" data-magnetic data-cursor="book">
+          <span class="btn__label">BOOK A GUJJAR</span>
+          <span class="btn__shine"></span>
+        </a>
+        <a href="#characters" class="btn btn--ghost btn--lg" data-magnetic>
+          <span class="btn__label">Meet the warriors</span>
+        </a>
+      </div>
+
+      <div class="hero__stats reveal-up" data-delay="560">
+        <div class="hero__stat">
+          <strong class="count" data-count="47" data-suffix="K+">0</strong>
+          <span>panges settled</span>
+        </div>
+        <div class="hero__stat">
+          <strong class="count" data-count="99" data-prefix="" data-suffix=".9%">0</strong>
+          <span>baat win rate</span>
+        </div>
+        <div class="hero__stat">
+          <strong class="count" data-count="100" data-suffix="%">0</strong>
+          <span>fictional</span>
+        </div>
+        <div class="hero__stat">
+          <strong>4.9<span class="hero__star">★</span></strong>
+          <span>Play Store review</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <span class="hero__scroll-text">scroll kar</span>
+      <span class="hero__scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>PANGA MAT LE</span><i class="marquee__star">✦</i>
+      <span>BOOKING KAR</span><i class="marquee__star">✦</i>
+      <span>BAAT SE MATTER</span><i class="marquee__star">✦</i>
+      <span>36 BIRADARI NETWORK</span><i class="marquee__star">✦</i>
+      <span>GUJJAR GUARANTEE™</span><i class="marquee__star">✦</i>
+      <span>NO VIOLENCE</span><i class="marquee__star">✦</i>
+      <span>ALL BHAAUKAAL</span><i class="marquee__star">✦</i>
+    </div>
+  </div>
+
+  <main>
+    <!-- ============ CHARACTERS ============ -->
+    <section class="section characters" id="characters">
+      <div class="section__head">
+        <p class="eyebrow reveal-up"><span class="eyebrow__dot"></span> The Squad</p>
+        <h2 class="section__title reveal-up" data-delay="60">
+          Meet your <span class="grad-text">Gujjar</span>
+        </h2>
+        <p class="section__desc reveal-up" data-delay="120">
+          Three legends. One mission: end the panga, keep the drama, refund nothing.
+          Select your warrior below — photos will be uploaded soon, till then
+          <em>imagine the jawline</em>.
+        </p>
+      </div>
+
+      <div class="cards">
+        <!-- SUNNY -->
+        <article class="card reveal-up" data-delay="0">
+          <div class="card__tilt" data-tilt>
+            <div class="card__photo" data-photo-slot="sunny">
+  <img src="images/warriors/sunny-gujjar.jpg" alt="Sunny Gujjar">
+  <span class="card__photo-badge">On call</span>
+</div>
+            <div class="card__body">
+              <span class="card__num">01</span>
+              <h3 class="card__name">Sunny Gujjar</h3>
+              <span class="card__role">Settlement Specialist</span>
+              <p class="card__quote">“Bhai baat se matter khatam karega.”</p>
+              <div class="card__tags">
+                <span class="chip">Chai-baazi</span>
+                <span class="chip">Ego soothing</span>
+                <span class="chip">Family function diplomacy</span>
+              </div>
+              <a href="#book" class="btn btn--outline btn--sm card__book" data-book="Sunny Gujjar">
+                Book this legend <span class="btn__arrow">→</span>
+              </a>
+            </div>
+            <div class="card__glare" aria-hidden="true"></div>
+          </div>
+        </article>
+
+        <!-- GOLU -->
+        <article class="card reveal-up" data-delay="120">
+          <div class="card__tilt" data-tilt>
+            <div class="card__photo" data-photo-slot="golu">
+  <img src="images/warriors/golu-karhana.jpg" alt="Golu Karhana">
+  <span class="card__photo-badge">36 biradari online</span>
+</div>
+            <div class="card__body">
+              <span class="card__num">02</span>
+              <h3 class="card__name">Golu Karhana</h3>
+              <span class="card__role">36 Biradari Network</span>
+              <p class="card__quote">“Jiske paas har situation ka banda hai.”</p>
+              <div class="card__tags">
+                <span class="chip">Connections</span>
+                <span class="chip">Influencer reach</span>
+                <span class="chip">Aunty-ji WhatsApp chain</span>
+              </div>
+              <a href="#book" class="btn btn--outline btn--sm card__book" data-book="Golu Karhana">
+                Book this legend <span class="btn__arrow">→</span>
+              </a>
+            </div>
+            <div class="card__glare" aria-hidden="true"></div>
+          </div>
+        </article>
+
+        <!-- KRISHNA -->
+        <article class="card reveal-up" data-delay="240">
+          <div class="card__tilt" data-tilt>
+            <div class="card__photo" data-photo-slot="krishna">
+  <img src="images/warriors/krishna-khatana.jpg" alt="Krishna Khatana">
+  <span class="card__photo-badge">Entry style: legendary</span>
+</div>
+            <div class="card__body">
+              <span class="card__num">03</span>
+              <h3 class="card__name">Krishna Khatana</h3>
+              <span class="card__role">Chaos Negotiator</span>
+              <p class="card__quote">“Entry aisi ki argument khud resign karde.”</p>
+              <div class="card__tags">
+                <span class="chip">Dramatic entry</span>
+                <span class="chip">Mic-drop exits</span>
+                <span class="chip">Villain energy</span>
+              </div>
+              <a href="#book" class="btn btn--outline btn--sm card__book" data-book="Krishna Khatana">
+                Book this legend <span class="btn__arrow">→</span>
+              </a>
+            </div>
+            <div class="card__glare" aria-hidden="true"></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ PROOF / STATS ============ -->
+    <section class="section proof" id="proof">
+      <div class="section__head">
+        <p class="eyebrow reveal-up"><span class="eyebrow__dot"></span> Proof (trust us)</p>
+        <h2 class="section__title reveal-up" data-delay="60">
+          Numbers that were <span class="grad-text">definitely</span> audited
+        </h2>
+      </div>
+
+      <div class="proof__grid">
+        <div class="proof__cell reveal-up">
+          <strong class="count" data-count="2.4" data-decimals="1" data-suffix=" Cr">0</strong>
+          <span class="proof__label">muh seen (fictional)</span>
+          <span class="proof__meta">Up 400% since last family function</span>
+        </div>
+        <div class="proof__cell reveal-up" data-delay="80">
+          <strong class="count" data-count="12000" data-suffix="+">0</strong>
+          <span class="proof__label">lines delivered</span>
+          <span class="proof__meta">“Bhai, sun toh…”™ hit 96% success</span>
+        </div>
+        <div class="proof__cell reveal-up" data-delay="160">
+          <strong class="count" data-count="36" data-suffix="K">0</strong>
+          <span class="proof__label">biradari contacts</span>
+          <span class="proof__meta">All of them block you on read now</span>
+        </div>
+        <div class="proof__cell reveal-up" data-delay="240">
+          <strong class="count" data-count="99.99" data-decimals="2" data-suffix="%">0</strong>
+          <span class="proof__label">of panges end in baat</span>
+          <span class="proof__meta">Remaining 0.01% ended in biryani</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GUARANTEE ============ -->
+    <section class="section guarantee" id="guarantee">
+      <div class="guarantee__card glass reveal-up">
+        <div class="guarantee__stamp" aria-hidden="true">
+          <span class="guarantee__stamp-ring"></span>
+          <span class="guarantee__stamp-text">GUJJAR GUARANTEE™</span>
+        </div>
+        <div class="guarantee__content">
+          <p class="eyebrow eyebrow--center reveal-up"><span class="eyebrow__dot"></span> The Guarantee</p>
+          <h2 class="guarantee__title reveal-up" data-delay="60">
+            Fail hua?<br />
+            <span class="grad-text">Next 3 bookings FREE.</span>
+          </h2>
+          <p class="guarantee__desc reveal-up" data-delay="120">
+            We are so confident our baat-ology works that if a Gujjar fails to end your panga,
+            we refund nothing but give you <strong>3 more Gujjars for free</strong>.
+            Somehow that's still a better deal than your mutual fund.
+          </p>
+          <ul class="guarantee__list">
+            <li class="reveal-up" data-delay="160">⚡ Zero violence. 100% bhaukaal (theatrical only).</li>
+            <li class="reveal-up" data-delay="200">🧾 No weapons. Only threats of calling your cousin.</li>
+            <li class="reveal-up" data-delay="240">🪪 Free “Bhai maan ja” certificate on successful settlement.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOOKING ============ -->
+    <section class="section book" id="book">
+      <div class="section__head">
+        <p class="eyebrow reveal-up"><span class="eyebrow__dot"></span> Booking (kuch hi second lagega)</p>
+        <h2 class="section__title reveal-up" data-delay="60">
+          Gujjar aa raha <span class="grad-text">hai</span>
+        </h2>
+        <p class="section__desc reveal-up" data-delay="120">
+          Uber-style. Tap, pick, done. No 47-step form, no “verify your aadhaar to verify
+          your existence”. Bas chai mili toh issue resolved.
+        </p>
+      </div>
+
+      <div class="book__wrap reveal-up" data-delay="80">
+        <div class="book-card glass" id="bookCard">
+          <div class="book-card__head">
+            <div class="book-card__type">
+              <span class="book-card__type-dot"></span>
+              <span id="etaText">Gujjar assigned… finding the nearest bhai</span>
+            </div>
+            <span class="book-card__eta" id="etaBadge">2 min</span>
+          </div>
+
+          <!-- Character select -->
+          <div class="field">
+            <label class="field__label" for="bkChar">Choose your warrior</label>
+            <div class="chars">
+              <label class="char-opt">
+                <input type="radio" name="char" value="Sunny Gujjar" data-quote="Bhai baat se matter khatam karega." checked />
+                <span class="char-opt__tile">
+                  <span class="char-opt__avatar" data-avatar="sunny">S</span>
+                  <span class="char-opt__name">Sunny</span>
+                  <span class="char-opt__status">Specialist</span>
+                </span>
+              </label>
+              <label class="char-opt">
+                <input type="radio" name="char" value="Golu Karhana" data-quote="Jiske paas har situation ka banda hai." />
+                <span class="char-opt__tile">
+                  <span class="char-opt__avatar" data-avatar="golu">G</span>
+                  <span class="char-opt__name">Golu</span>
+                  <span class="char-opt__status">Network</span>
+                </span>
+              </label>
+              <label class="char-opt">
+                <input type="radio" name="char" value="Krishna Khatana" data-quote="Entry aisi ki argument khud resign karde." />
+                <span class="char-opt__tile">
+                  <span class="char-opt__avatar" data-avatar="krishna">K</span>
+                  <span class="char-opt__name">Krishna</span>
+                  <span class="char-opt__status">Negotiator</span>
+                </span>
+              </label>
+            </div>
+            <p class="field__quote" id="charQuote">“Bhai baat se matter khatam karega.”</p>
+          </div>
+
+          <!-- Date / time / location -->
+          <div class="row">
+            <div class="field">
+              <label class="field__label" for="bkDate">Kis din?</label>
+              <input class="input" type="date" id="bkDate" />
+            </div>
+            <div class="field">
+              <label class="field__label" for="bkTime">Kitne baje?</label>
+              <input class="input" type="time" id="bkTime" value="18:00" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="bkLoc">Kahan bhai?</label>
+            <input class="input" type="text" id="bkLoc" placeholder="e.g. 7/11 Chai Point, Karol Bagh" />
+          </div>
+
+          <!-- Fare preview -->
+          <div class="fare">
+            <span class="fare__row">
+              <span>Base baat fee</span><span>₹49</span>
+            </span>
+            <span class="fare__row">
+              <span>Drama surcharge</span><span>₹0 <small>(you saved)</small></span>
+            </span>
+            <span class="fare__row fare__row--total">
+              <span>Total (fully refundable* joke)</span><span id="fareTotal">₹49</span>
+            </span>
+            <small class="fare__fine">*guarantee ko gujju ke zor se chalao. T&C: koi T&C nahi.</small>
+          </div>
+
+          <button class="btn btn--solid btn--lg btn--block book-card__submit" id="bookNow" data-magnetic data-cursor="book">
+            <span class="btn__label">BOOK NOW</span>
+            <span class="btn__shine"></span>
+          </button>
+
+          <p class="book-card__secure">🔒 256-bit SSL + 100% imaginary security. Aapka data sirf chai ke sath share hota hai.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONFIRMATION OVERLAY ============ -->
+    <div class="confirm" id="confirm" aria-hidden="true">
+      <div class="confirm__backdrop"></div>
+      <div class="confirm__panel glass">
+        <div class="confirm__check">
+          <svg viewBox="0 0 52 52"><path class="confirm__check-path" d="M14 27l8 8 16-18" /></svg>
+        </div>
+        <h3 class="confirm__title">Panga booking ho gayi! 🎉</h3>
+        <p class="confirm__sub" id="confirmSub">Sunny Gujjar 6 min mein aake matter khatam karega.</p>
+
+        <div class="confirm__eta">
+          <div class="confirm__eta-track"><span class="confirm__eta-fill" id="etaFill"></span></div>
+          <div class="confirm__eta-row">
+            <span id="etaCountdown">Your Gujjar arriving in 0:06</span>
+            <span class="confirm__eta-live">LIVE</span>
+          </div>
+        </div>
+
+        <div class="confirm__ticket">
+          <div class="confirm__ticket-row"><span>Warrior</span><strong id="ticketChar">Sunny Gujjar</strong></div>
+          <div class="confirm__ticket-row"><span>When</span><strong id="ticketWhen">—</strong></div>
+          <div class="confirm__ticket-row"><span>Where</span><strong id="ticketWhere">—</strong></div>
+          <div class="confirm__ticket-row"><span>Weapon</span><strong>Ek strong baat 💪</strong></div>
+          <div class="confirm__ticket-row"><span>OTP</span><strong id="ticketOtp">000000</strong></div>
+        </div>
+
+        <p class="confirm__joke" id="confirmJoke">Did you know: 4 out of 5 arguments end before the chai cools down. The 5th one was about chai.</p>
+
+        <button class="btn btn--ghost btn--sm confirm__close" id="confirmClose">Perfect. Ab scroll karke reviews padho.</button>
+      </div>
+    </div>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="section reviews" id="reviews">
+      <div class="section__head">
+        <p class="eyebrow reveal-up"><span class="eyebrow__dot"></span> Reviews</p>
+        <h2 class="section__title reveal-up" data-delay="60">
+          Apne logon ne <span class="grad-text">kya bola</span>
+        </h2>
+        <p class="section__desc reveal-up" data-delay="120">
+          No review was paid for. The reviews themselves paid us.
+        </p>
+      </div>
+
+      <div class="reviews__grid">
+        <figure class="review glass reveal-up">
+          <div class="review__stars">★★★★★</div>
+          <blockquote class="review__text">“Panga ghar mein tha, 5 min mein baat ho gayi. Ab uncle mujhe sirf ‘beta’ bolte hain, ‘oye’ nahi. 10/10.”</blockquote>
+          <figcaption class="review__who">
+            <span class="review__avatar">R</span>
+            <span><strong>Rahul Verma</strong><small>Verified panga-haver · Delhi</small></span>
+          </figcaption>
+        </figure>
+
+        <figure class="review glass reveal-up" data-delay="80">
+          <div class="review__stars">★★★★★</div>
+          <blockquote class="review__text">“ Golu ne aisi entry maari ki samne wale ki gand phat gyi.”</blockquote>
+          <figcaption class="review__who">
+            <span class="review__avatar">P</span>
+            <span><strong>Priya mor</strong><small>Verified survivor · Gurugram</small></span>
+          </figcaption>
+        </figure>
+
+        <figure class="review glass reveal-up" data-delay="160">
+          <div class="review__stars">★★★★★</div>
+          <blockquote class="review__text">“Golu bhai ka ‘har situation ka banda’ actually existed. Usne apne 36 biradari se mera landlord dhunda.”</blockquote>
+          <figcaption class="review__who">
+            <span class="review__avatar">A</span>
+            <span><strong>Arjun Malik</strong><small>Verified tenant-arguer · Chandigarh</small></span>
+          </figcaption>
+        </figure>
+
+        <figure class="review glass reveal-up" data-delay="240">
+          <div class="review__stars">★★★★★</div>
+          <blockquote class="review__text">““Meri saas ne mujhe taane maarne band kar diye jab se Sunny bhai unse mili. Ab woh khud mujhe chai bana ke deti hai. Witchcraft nahi hai yeh, negotiation hai.”</blockquote>
+          <figcaption class="review__who">
+            <span class="review__avatar">N</span>
+            <span><strong>Neha Gupta</strong><small>Verified fast-critic · Noida</small></span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA ============ -->
+    <section class="section final">
+      <div class="final__inner reveal-up">
+        <p class="eyebrow eyebrow--center"><span class="eyebrow__dot"></span> Final call</p>
+        <h2 class="final__title">
+          Panga mat le.<br />
+          <span class="grad-text">Booking kar.</span>
+        </h2>
+        <a href="#book" class="btn btn--solid btn--lg" data-magnetic data-cursor="book">
+          <span class="btn__label">BOOK A GUJJAR</span>
+          <span class="btn__shine"></span>
+        </a>
+        <p class="final__micro">Gujjar aata hai. Baat hoti hai. Ghar jaate ho.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer glass">
+    <div class="footer__brand">
+      <span class="logo-mark logo-mark--lg" aria-hidden="true">UG</span>
+      <span class="wordmark wordmark--center">
+        <span class="wordmark__top">Urban</span>
+        <span class="wordmark__main wordmark__main--lg">Gujjar<sup class="wordmark__tm">™</sup></span>
+      </span>
+    </div>
+    <p class="footer__disclaimer">
+      Urban Gujjar is a <strong>fictional comedy parody</strong> of overfunded startups and
+      dramatic dispute-resolution stereotypes. No real Gujjars were hired, harmed, or
+      booked during the making of this website. No violence. No weapons. Only baat.
+      If a real panga exists, call the police — we'll just watch and tweet.
+    </p>
+    <div class="footer__meta">
+      <span>© 2026 Urban Gujjar Fictional Tech Pvt. Ltd.</span>
+      <span>Made with 3 chai ☕ and ₹50 crore of imaginary funding</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
